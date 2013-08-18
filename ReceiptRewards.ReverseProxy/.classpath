@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src/main/java"/>
+	<classpathentry kind="src" path="src/test/java"/>
+	<classpathentry kind="src" path="src/main/webapp"/>
+	<classpathentry kind="src" path="src/main/resources"/>
+	<classpathentry kind="src" path="src/test/resources"/>
+	<classpathentry kind="con" path="org.maven.ide.eclipse.MAVEN2_CLASSPATH_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry kind="lib" path="C:/Connecture/guava-r07.jar"/>
+	<classpathentry kind="lib" path="C:/Connecture/commons-lang-2.4.jar"/>
+	<classpathentry kind="lib" path="C:/Connecture/commons-io-2.4.jar"/>
+	<classpathentry kind="lib" path="C:/Connecture/StateAdvantage/lib/geronimo-j2ee_1.4_spec-1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Connecture/StateAdvantage/lib/httpcore-4.1.jar"/>
+	<classpathentry kind="lib" path="C:/Connecture/StateAdvantage/lib/httpclient-4.1.1.jar"/>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>

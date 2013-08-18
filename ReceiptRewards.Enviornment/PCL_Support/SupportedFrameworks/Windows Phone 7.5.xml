@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Framework
+    Identifier="Silverlight"
+    Profile="WindowsPhone7*"
+    MinimumVersion="4.0"
+    DisplayName="Windows Phone"
+    MinimumVersionDisplayName="7.5" />

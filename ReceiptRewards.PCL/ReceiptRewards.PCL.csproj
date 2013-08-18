@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <MinimumVisualStudioVersion>10.0</MinimumVisualStudioVersion>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{056400CC-0B31-4D49-8EA8-CC8D69A99425}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ReceiptRewards.PCL</RootNamespace>
+    <AssemblyName>ReceiptRewards.PCL</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Profile104</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{786C830F-07A1-408B-BD7F-6EE04809D6DB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <!-- A reference to the entire .NET Framework is automatically included -->
+    <Folder Include="DataAccessLayer\Admin\" />
+    <Folder Include="DataAccessLayer\Interfaces\" />
+    <Folder Include="DataAccessLayer\Phone\" />
+    <Folder Include="ServiceAccessLayer\Automation\Implementations\" />
+    <Folder Include="ServiceAccessLayer\Automation\Interfaces\" />
+    <Folder Include="ServiceAccessLayer\Database\Interfaces\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Aliases\A.cs" />
+    <Compile Include="Aliases\B.cs" />
+    <Compile Include="Aliases\C.cs" />
+    <Compile Include="Aliases\O.cs" />
+    <Compile Include="Aliases\D.cs" />
+    <Compile Include="Aliases\E.cs" />
+    <Compile Include="Aliases\F.cs" />
+    <Compile Include="Aliases\G.cs" />
+    <Compile Include="Aliases\H.cs" />
+    <Compile Include="Aliases\I.cs" />
+    <Compile Include="Aliases\J.cs" />
+    <Compile Include="Aliases\K.cs" />
+    <Compile Include="Aliases\L.cs" />
+    <Compile Include="Aliases\M.cs" />
+    <Compile Include="Aliases\N.cs" />
+    <Compile Include="Aliases\P.cs" />
+    <Compile Include="Aliases\Q.cs" />
+    <Compile Include="Aliases\R.cs" />
+    <Compile Include="Aliases\S.cs" />
+    <Compile Include="Aliases\T.cs" />
+    <Compile Include="Aliases\U.cs" />
+    <Compile Include="App.cs" />
+    <Compile Include="BusinessLayer\CommonUtils.cs" />
+    <Compile Include="BusinessLayer\AliasHelper.cs" />
+    <Compile Include="BusinessLayer\ISimpleRestService.cs" />
+    <Compile Include="BusinessLayer\SimpleRestService.cs" />
+    <Compile Include="Models\Automation.cs" />
+    <Compile Include="Models\Code.cs" />
+    <Compile Include="Models\CodeType.cs" />
+    <Compile Include="Models\CommandElement.cs" />
+    <Compile Include="Models\CommandIdentifier.cs" />
+    <Compile Include="Models\Company.cs" />
+    <Compile Include="Models\CommandFormElementRelation.cs" />
+    <Compile Include="Models\AutomationFlow.cs" />
+    <Compile Include="Models\FormElementUserDataRelation.cs" />
+    <Compile Include="Models\FormFlow.cs" />
+    <Compile Include="Models\Question.cs" />
+    <Compile Include="Models\Reward.cs" />
+    <Compile Include="Models\Submission.cs" />
+    <Compile Include="Models\SubmissionAnswer.cs" />
+    <Compile Include="Models\DisplayText.cs" />
+    <Compile Include="Models\DisplayTextTranslation.cs" />
+    <Compile Include="Models\Form.cs" />
+    <Compile Include="Models\FormElement.cs" />
+    <Compile Include="Models\FormElementAttribute.cs" />
+    <Compile Include="Models\FormElementOption.cs" />
+    <Compile Include="Models\Revision.cs" />
+    <Compile Include="Models\SubmissionReward.cs" />
+    <Compile Include="Models\Survey.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ServiceAccessLayer\Database\Implementations\AutomationServiceImpl.cs" />
+    <Compile Include="ServiceAccessLayer\Database\Implementations\CodeServiceImpl.cs" />
+    <Compile Include="ServiceAccessLayer\Database\Implementations\CodeTypeServiceImpl.cs" />
+    <Compile Include="ServiceAccessLayer\Database\Implementations\CommandElementServiceImpl.cs" />
+    <Compile Include="ServiceAccessLayer\Database\Implementations\CommandIdentifierServiceImpl.cs" />
+    <Compile Include="ServiceAccessLayer\Database\Implementations\CompanyServiceImpl.cs" />
+    <Compile Include="ServiceAccessLayer\Database\Implementations\CommandFormElementRelationServiceImpl.cs" />
+    <Compile Include="ServiceAccessLayer\Database\Implementations\AutomationFlowServiceImpl.cs" />
+    <Compile Include="ServiceAccessLayer\Database\Implementations\SpeedyServiceImpl.cs" />
+    <Compile Include="ServiceAccessLayer\Database\Implementations\FormFlowServiceImpl.cs" />
+    <Compile Include="ServiceAccessLayer\Database\Implementations\QuestionServiceImpl.cs" />
+    <Compile Include="ServiceAccessLayer\Database\Implementations\SubmissionServiceImpl.cs" />
+    <Compile Include="ServiceAccessLayer\Database\Implementations\SubmissionAnswerServiceImpl.cs" />
+    <Compile Include="ServiceAccessLayer\Database\Implementations\FormElementAttributeServiceImpl.cs" />
+    <Compile Include="ServiceAccessLayer\Database\Implementations\FormElementOptionServiceImpl.cs" />
+    <Compile Include="ServiceAccessLayer\Database\Implementations\FormElementServiceImpl.cs" />
+    <Compile Include="ServiceAccessLayer\Database\Implementations\FormServiceImpl.cs" />
+    <Compile Include="ServiceAccessLayer\Database\Implementations\RevisionServiceImpl.cs" />
+    <Compile Include="ServiceAccessLayer\Database\Implementations\SurveyServiceImpl.cs" />
+    <Compile Include="ServiceAccessLayer\Proxy\Implementations\CompanyServiceImpl.cs" />
+    <Compile Include="ServiceAccessLayer\Proxy\Implementations\RevisionServiceImpl.cs" />
+    <Compile Include="ServiceAccessLayer\Proxy\Interfaces\CompanyService.cs" />
+    <Compile Include="ViewModels\BrowseSurveyViewModel.cs" />
+    <Compile Include="ViewModels\BrowseCompanyViewModel.cs" />
+    <Compile Include="ViewModels\CompanyInformationViewModel.cs" />
+    <Compile Include="ViewModels\SurveyFormViewModel.cs" />
+    <Compile Include="ViewModels\SurveyInformationViewModel.cs" />
+    <Compile Include="ViewModels\StartSurveyViewModel.cs" />
+    <Compile Include="ViewModels\FirstViewModel.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Cirrious.CrossCore">
+      <HintPath>..\packages\MvvmCross.HotTuna.CrossCore.3.0.7\lib\portable-win+net45+MonoAndroid16+MonoTouch40+sl40+wp71\Cirrious.CrossCore.dll</HintPath>
+    </Reference>
+    <Reference Include="Cirrious.MvvmCross">
+      <HintPath>..\packages\MvvmCross.HotTuna.StarterPack.3.0.7\lib\portable-win+net45+MonoAndroid16+MonoTouch40+sl40+wp71\Cirrious.MvvmCross.dll</HintPath>
+    </Reference>
+    <Reference Include="Cirrious.MvvmCross.Localization">
+      <HintPath>..\packages\MvvmCross.HotTuna.CrossCore.3.0.7\lib\portable-win+net45+MonoAndroid16+MonoTouch40+sl40+wp71\Cirrious.MvvmCross.Localization.dll</HintPath>
+    </Reference>
+    <Reference Include="Cirrious.MvvmCross.Plugins.Json">
+      <HintPath>..\packages\MvvmCross.HotTuna.Plugin.Json.3.0.7\lib\portable-win+net45+MonoAndroid16+MonoTouch40+sl40+wp71\Cirrious.MvvmCross.Plugins.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\packages\MvvmCross.HotTuna.Plugin.Json.3.0.7\lib\portable-win+net45+MonoAndroid16+MonoTouch40+sl40+wp71\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="README_FIRST.txt" />
+    <Content Include="Toolkit.Content\ApplicationBar.Cancel.png" />
+    <Content Include="Toolkit.Content\ApplicationBar.Check.png" />
+    <Content Include="Toolkit.Content\ApplicationBar.Delete.png" />
+    <Content Include="Toolkit.Content\ApplicationBar.Select.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

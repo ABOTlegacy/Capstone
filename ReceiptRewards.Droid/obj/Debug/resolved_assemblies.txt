@@ -1,0 +1,9 @@
+C:\Users\Andy\Desktop\ReceiptRewardsApp\ReceiptRewards.Droid2\bin\Debug\ReceiptRewards.Droid2.dll
+C:\Users\Andy\Desktop\ReceiptRewardsApp\ReceiptRewards.Droid2\bin\Debug\ReceiptRewards.PCL.dll
+C:\Users\Andy\Desktop\ReceiptRewardsApp\ReceiptRewards.Droid2\bin\Debug\Cirrious.MvvmCross.dll
+C:\Users\Andy\Desktop\ReceiptRewardsApp\ReceiptRewards.Droid2\bin\Debug\Cirrious.CrossCore.dll
+C:\Users\Andy\Desktop\ReceiptRewardsApp\ReceiptRewards.Droid2\bin\Debug\System.Windows.dll
+C:\Users\Andy\Desktop\ReceiptRewardsApp\ReceiptRewards.Droid2\bin\Debug\System.Net.dll
+C:\Users\Andy\Desktop\ReceiptRewardsApp\ReceiptRewards.Droid2\bin\Debug\Cirrious.MvvmCross.Plugins.Json.dll
+C:\Users\Andy\Desktop\ReceiptRewardsApp\ReceiptRewards.Droid2\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Andy\Desktop\ReceiptRewardsApp\ReceiptRewards.Droid2\bin\Debug\LegacyBar.Library.dll

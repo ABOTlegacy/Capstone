@@ -1,0 +1,10 @@
+C:\Users\Andy\Desktop\ReceiptRewardsApp\ReceiptRewards.PCL\bin\Release\ReceiptRewards.PCL.dll
+C:\Users\Andy\Desktop\ReceiptRewardsApp\ReceiptRewards.PCL\bin\Release\ReceiptRewards.PCL.pdb
+C:\Users\Andy\Desktop\ReceiptRewardsApp\ReceiptRewards.PCL\bin\Release\Cirrious.CrossCore.dll
+C:\Users\Andy\Desktop\ReceiptRewardsApp\ReceiptRewards.PCL\bin\Release\Cirrious.MvvmCross.dll
+C:\Users\Andy\Desktop\ReceiptRewardsApp\ReceiptRewards.PCL\bin\Release\Cirrious.MvvmCross.Localization.dll
+C:\Users\Andy\Desktop\ReceiptRewardsApp\ReceiptRewards.PCL\bin\Release\Cirrious.MvvmCross.Plugins.Json.dll
+C:\Users\Andy\Desktop\ReceiptRewardsApp\ReceiptRewards.PCL\bin\Release\Newtonsoft.Json.dll
+C:\Users\Andy\Desktop\ReceiptRewardsApp\ReceiptRewards.PCL\obj\Release\ReceiptRewards.PCL.dll
+C:\Users\Andy\Desktop\ReceiptRewardsApp\ReceiptRewards.PCL\obj\Release\ReceiptRewards.PCL.pdb
+C:\Users\Andy\Desktop\ReceiptRewardsApp\ReceiptRewards.PCL\obj\Release\ReceiptRewards.PCL.csprojResolveAssemblyReference.cache

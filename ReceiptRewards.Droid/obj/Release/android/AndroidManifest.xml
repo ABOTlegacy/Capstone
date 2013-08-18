@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:installLocation="auto" package="dk.ostebaronen.drawersample" android:versionCode="1" android:versionName="1.0">
+  <uses-sdk android:minSdkVersion="8" android:targetSdkVersion="12" />
+  <application android:label="Receipt Rewards" android:name="mono.android.app.Application">
+    <activity android:label="@string/fragment_tabs_pager" android:name="receiptrewards.droid2.DrawerTabFragmentActivity">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="mono.support4demo.sample" />
+      </intent-filter>
+    </activity>
+    <activity android:icon="@drawable/icon" android:label="Receipt Rewards" android:name="receiptrewards.droid2.AboutFlowActivity" />
+    <activity android:label="Receipt Rewards" android:name="receiptrewards.droid2.BrowseFlowActivity">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
+    <activity android:icon="@drawable/icon" android:label="Receipt Rewards" android:name="receiptrewards.droid2.MainActivity" />
+    <activity android:label="" android:name="legacybar.library.barbase.LegacyBarExpandableListActivity" />
+    <activity android:label="" android:name="legacybar.library.barbase.LegacyBarTabActivity" />
+    <activity android:label="" android:name="legacybar.library.barbase.LegacyBarActivity" />
+    <activity android:label="" android:name="legacybar.library.barbase.LegacyBarFragmentActivity" />
+    <activity android:label="" android:name="legacybar.library.barbase.LegacyBarListActivity" />
+    <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="2147483647" android:authorities="dk.ostebaronen.drawersample.mono.MonoRuntimeProvider.__mono_init__" />
+  </application>
+  <uses-permission android:name="android.permission.INTERNET" />
+  <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+</manifest>

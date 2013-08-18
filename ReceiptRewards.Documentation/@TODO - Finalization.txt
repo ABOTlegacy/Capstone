@@ -1,0 +1,20 @@
+- Integration Tests
+- Brief User Acceptance (maybe)
+- Achnowledgements Document
+- Add Comments to Admin CMS - User Manual
+- Add Commments to Phone - User Manual
+- Breakdown and update the Work Breakdown Structure
+- Update the Database Document
+- Update Web Service Document
+- Complete the User Interface Documents
+
+
+
+
+- Defect Form
+- Example Defects Filled out
+
+
+
+
+- Don't be afraid to use screenshots either in docs

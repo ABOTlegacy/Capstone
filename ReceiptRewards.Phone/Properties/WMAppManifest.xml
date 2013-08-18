@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Deployment xmlns="http://schemas.microsoft.com/windowsphone/2009/deployment" AppPlatformVersion="7.1">
+  <App xmlns="" ProductID="{c137c025-b801-4988-bd37-c33018199e19}" Title="Receipt Rewards" RuntimeType="Silverlight" Version="1.0.0.0" Genre="apps.normal" Author="Andy Bottom" Description="This is an application used to assist with filling out the surveys at the bottom of receipts in order to reap the rewards." Publisher="A-BOT Legacy Software" BitsPerPixel="32">
+    <IconPath IsRelative="true" IsResource="false">Resources\Images\Icons\Icon_ReceiptRewards03.png</IconPath>
+    <Capabilities>
+      <Capability Name="ID_CAP_IDENTITY_DEVICE" />
+      <Capability Name="ID_CAP_IDENTITY_USER" />
+      <Capability Name="ID_CAP_NETWORKING" />
+      <Capability Name="ID_CAP_PUSH_NOTIFICATION" />
+    </Capabilities>
+    <Tasks>
+      <DefaultTask Name="_default" NavigationPage="MainPage.xaml" />
+    </Tasks>
+    <Tokens>
+      <PrimaryToken TokenID="ReceiptRewards.PhoneToken" TaskName="_default">
+        <TemplateType5>
+          <BackgroundImageURI IsRelative="true" IsResource="false">Resources\Images\Icons\Icon_ReceiptRewards03.png</BackgroundImageURI>
+          <Count>0</Count>
+          <Title>Receipt Rewards</Title>
+        </TemplateType5>
+      </PrimaryToken>
+    </Tokens>
+  </App>
+</Deployment>

@@ -1,0 +1,68 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReceiptRewards.Core", "ReceiptRewards.Core\ReceiptRewards.Core.csproj", "{996AABB5-0522-4EA8-8196-E9513EDB21A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReceiptRewards.Phone", "ReceiptRewards.Phone\ReceiptRewards.Phone.csproj", "{C137C025-B801-4988-BD37-C33018199E19}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReceiptRewards.PCL", "ReceiptRewards.PCL\ReceiptRewards.PCL.csproj", "{056400CC-0B31-4D49-8EA8-CC8D69A99425}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReceiptRewards.Droid2", "ReceiptRewards.Droid2\ReceiptRewards.Droid2.csproj", "{0799762E-5230-4E1C-8B81-890AD362107F}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "ReceiptRewards.WebCMS", "http://localhost:49365", "{22A62A40-50AA-4E7E-B4D7-888C64E68746}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "true"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		ProjectReferences = "{056400cc-0b31-4d49-8ea8-cc8d69a99425}|ReceiptRewards.PCL.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_49365"
+		Debug.AspNetCompiler.PhysicalPath = "ReceiptRewards.WebCMS\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_49365\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_49365"
+		Release.AspNetCompiler.PhysicalPath = "ReceiptRewards.WebCMS\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_49365\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "ReceiptRewards.WebCMS\"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{996AABB5-0522-4EA8-8196-E9513EDB21A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{996AABB5-0522-4EA8-8196-E9513EDB21A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{996AABB5-0522-4EA8-8196-E9513EDB21A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{996AABB5-0522-4EA8-8196-E9513EDB21A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C137C025-B801-4988-BD37-C33018199E19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C137C025-B801-4988-BD37-C33018199E19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C137C025-B801-4988-BD37-C33018199E19}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{C137C025-B801-4988-BD37-C33018199E19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C137C025-B801-4988-BD37-C33018199E19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C137C025-B801-4988-BD37-C33018199E19}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{056400CC-0B31-4D49-8EA8-CC8D69A99425}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{056400CC-0B31-4D49-8EA8-CC8D69A99425}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{056400CC-0B31-4D49-8EA8-CC8D69A99425}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{056400CC-0B31-4D49-8EA8-CC8D69A99425}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0799762E-5230-4E1C-8B81-890AD362107F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0799762E-5230-4E1C-8B81-890AD362107F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0799762E-5230-4E1C-8B81-890AD362107F}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{0799762E-5230-4E1C-8B81-890AD362107F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0799762E-5230-4E1C-8B81-890AD362107F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0799762E-5230-4E1C-8B81-890AD362107F}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{22A62A40-50AA-4E7E-B4D7-888C64E68746}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22A62A40-50AA-4E7E-B4D7-888C64E68746}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22A62A40-50AA-4E7E-B4D7-888C64E68746}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{22A62A40-50AA-4E7E-B4D7-888C64E68746}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
