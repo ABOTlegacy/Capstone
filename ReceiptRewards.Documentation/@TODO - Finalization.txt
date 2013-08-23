@@ -1,6 +1,5 @@
 @TODO: Add Android and CMS Class Diagram
 @TODO: Finish Achknoledgement for Family and Friends
-@TOOD: Add a little more about user expereince of the phone applications.
 @TODO: Get Binders ready.
 @TODO: Write Retrospective
 @TODO: Get A CD For the code and documentation
