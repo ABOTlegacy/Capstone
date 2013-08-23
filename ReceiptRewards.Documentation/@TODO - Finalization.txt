@@ -1,19 +1,14 @@
-- Integration Tests
-- Brief User Acceptance (maybe)
-- Achnowledgements Document
-- Add Comments to Admin CMS - User Manual
-- Add Commments to Phone - User Manual
-- Breakdown and update the Work Breakdown Structure
-- Update Web Service Document
-- Complete the User Interface Documents
+@TODO: Add Android and CMS Class Diagram
+@TODO: Finish Achknoledgement for Family and Friends
+@TOOD: Add a little more about user expereince of the phone applications.
+@TODO: Get Binders ready.
+@TODO: Write Retrospective
+@TODO: Get A CD For the code and documentation
+@TODO: Fill Out the Library Forms
+@TODO: Print out the Documents
+@TODO: Maybe get nice paper?
+@TODO: Work Breakdown Structure
+@TODO: Frequently Asked Questions
 
-
-
-
-- Defect Form
-- Example Defects Filled out
-
-
-
-
-- Don't be afraid to use screenshots either in docs
+@TODO: Compile into all one document.
+@TODO: Maybe make two copies, on for me to keep.
