@@ -6,7 +6,6 @@
 @TODO: Fill Out the Library Forms
 @TODO: Print out the Documents
 @TODO: Maybe get nice paper?
-@TODO: Work Breakdown Structure
 @TODO: Frequently Asked Questions
 
 @TODO: Compile into all one document.
